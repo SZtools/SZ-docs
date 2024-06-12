@@ -1,6 +1,26 @@
 Susceptibility Zoning plugin (SZ)
 =================================
 
+toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   introduction_
+   installation_
+   installation/requirements_
+   installation/download_
+   gui_
+   test_
+   libraries_
+   tutorial_
+   application_
+   publications_
+   presentations_
+   credits_
+   contacts_
+
+.. _introduction:
+
 Introduction
 ------------
 
@@ -19,10 +39,20 @@ The plugin uses several type of statistical model for susceptibility evaluation,
 
 The plugin allows to cross-validate the results by simple random selection of test/train samples or allows to cross-validate by k-fold cross-validation method.
 
+.. _installation:
+
 Installation
 ------------
 
 The SZ plugin is not an official QGIS plugin.
+
+.. toctree::
+   :maxdepth: 1
+
+   installation/requirements_
+   installation/download_
+
+.. _installation/requirements:
 
 Minimum requirements
 ~~~~~~~~~~~~~~~~~~~~~
@@ -34,6 +64,8 @@ Tested on:
 * Ubuntu 20.04 - QGIS 3.34
 * Windows 10 - QGIS 3.28/QGIS 3.34
 * MacOS Sonoma 14.4 - QGIS 3.28
+
+.. _installation/download:
 
 Download and install
 ~~~~~~~~~~~~~~~~~~~~
@@ -75,6 +107,8 @@ At the end you should have the SZ plugin in your processing toolbox
 .. image:: ./images/gui.png
    :width: 300px
 
+.. _gui:
+
 GUI
 ---
 
@@ -97,6 +131,8 @@ Input data for SI k-fold or SI functions should be a vector layer with a number 
 .. image:: ./images/use.png
    :width: 500px
 
+.. _test:
+
 Test
 ----
 
@@ -108,16 +144,22 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 .. image:: ./images/output.png
    :width: 500px
 
+.. _libraries:
+
 Third-part libraries and plugins used
 -------------------------------------
 
 * `Scikit-learn <https://scikit-learn.org/stable/index.html>`_
 * `libpysal <https://pysal.org/libpysal/>`_
 
+.. _tutorial:
+
 Tutorial
 --------
 
 video tutorial: https://www.youtube.com/watch?v=XpsiCkVF11s
+
+.. _application:
 
 Application
 -----------
@@ -125,6 +167,8 @@ Application
 Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping Susceptibility With Open-Source Tools: A New Plugin for QGIS. Front. Earth Sci. 10:842425. doi: 10.3389/feart.2022.842425
 
 `Referenced dataset <https://zenodo.org/record/6575572>`_
+
+.. _publications:
 
 Publications
 ------------
@@ -139,6 +183,8 @@ Titti, G., Borgatti, L., Zou, Q., Cui, P., & Pasuto, A. (2021). Landslide suscep
 
 Titti, G., Borgatti, L., Zou, Q., Pasuto, A., 2019. Small-Scale landslide Susceptibility Assessment. The Case Study of the Southern Asia. Proceedings 30, 14. `10.3390/proceedings2019030014 <https://doi.org/10.3390/proceedings2019030014>`_
 
+.. _presentations:
+
 Presentations
 -------------
 
@@ -146,12 +192,16 @@ Presentations
 
 Titti, Giacomo, Sarretta, Alessandro, Crema, Stefano, Pasuto, Alessandro, & Borgatti, Lisa. (2020, March). Sviluppo e applicazione del plugin Susceptibility zoning per il supporto alla pianificazione territoriale. Zenodo. `10.5281/zenodo.3723353 <https://zenodo.org/record/3723353>`_
 
+.. _credits:
+
 Credits
 -------
 
 Giacomo Titti, Alessandro Sarretta and Luigi Lombardo, Padova, November 2021
 
 please cite as: Giacomo Titti, Alessandro Sarretta and Luigi Lombardo. (2021). CNR-IRPI-Padova/SZ: SZ plugin (Version v1.0). Zenodo.
+
+.. _contacts:
 
 Contacts
 --------
