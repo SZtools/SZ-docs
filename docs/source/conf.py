@@ -16,6 +16,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
 
@@ -34,7 +35,6 @@ html_theme = 'sphinx_rtd_theme'
 # Customize sidebar templates, if needed
 html_sidebars = {
    '**': [
-       'globaltoc.html',  # Global table of contents
        'relations.html',  # Next/previous links
        'sourcelink.html',  # View source link
        'searchbox.html',  # Search box
