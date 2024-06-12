@@ -1,24 +1,7 @@
 Susceptibility Zoning plugin (SZ)
 =================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
-   introduction_
-   installation_
-   installation/requirements_
-   installation/download_
-   gui_
-   test_
-   libraries_
-   tutorial_
-   application_
-   publications_
-   presentations_
-   credits_
-   contacts_
-.. _introduction:
 
 Introduction
 ------------
