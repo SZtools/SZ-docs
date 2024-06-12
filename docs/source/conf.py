@@ -35,7 +35,8 @@ html_theme = 'sphinx_rtd_theme'
 # Customize sidebar templates, if needed
 html_sidebars = {
    '**': [
-       'relations.html',  # Next/previous links
+       'globaltoc.html',  # Global table of contents
+       #'relations.html',  # Next/previous links
        'sourcelink.html',  # View source link
        'searchbox.html',  # Search box
    ]
