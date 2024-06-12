@@ -7,8 +7,6 @@ Susceptibility Zoning plugin (SZ)
 
    introduction_
    installation_
-   installation/requirements_
-   installation/download_
    gui_
    test_
    libraries_
