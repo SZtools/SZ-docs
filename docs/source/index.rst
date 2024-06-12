@@ -45,6 +45,7 @@ The SZ plugin is not an official QGIS plugin.
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    installation/requirements_
    installation/download_
