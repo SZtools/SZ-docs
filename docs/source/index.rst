@@ -5,17 +5,18 @@ Susceptibility Zoning plugin (SZ)
    :maxdepth: 2
    :caption: Contents:
 
-   introduction_
-   installation_
-   gui_
-   test_
-   libraries_
-   tutorial_
-   application_
-   publications_
-   presentations_
-   credits_
-   contacts_
+   introduction
+   installation/index
+   gui
+   test
+   libraries
+   tutorial
+   application
+   publications
+   presentations
+   credits
+   contacts
+
 .. _introduction:
 
 Introduction
@@ -47,8 +48,8 @@ The SZ plugin is not an official QGIS plugin.
    :maxdepth: 1
    :hidden:
 
-   installation/requirements_
-   installation/download_
+   installation/requirements
+   installation/download
 
 .. _installation/requirements:
 
