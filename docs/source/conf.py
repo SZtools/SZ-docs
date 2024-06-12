@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SZ-plugin-guide'
+copyright = '2024, Giacomo Titti'
+author = 'Giacomo Titti'
 
 release = '0.1'
 version = '0.1.0'
@@ -15,6 +15,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 ]
@@ -30,6 +31,16 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+
+# Customize sidebar templates, if needed
+html_sidebars = {
+   '**': [
+       'globaltoc.html',  # Global table of contents
+       'relations.html',  # Next/previous links
+       'sourcelink.html',  # View source link
+       'searchbox.html',  # Search box
+   ]
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
