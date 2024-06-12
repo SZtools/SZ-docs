@@ -22,13 +22,6 @@ The plugin allows to cross-validate the results by simple random selection of te
 Installation
 ------------
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   installation/requirements
-   installation/download
-
 The SZ plugin is not an official QGIS plugin.
 
 Minimum requirements
