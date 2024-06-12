@@ -1,22 +1,6 @@
 Susceptibility Zoning plugin (SZ)
 =================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   introduction
-   installation/index
-   gui
-   test
-   libraries
-   tutorial
-   application
-   publications
-   presentations
-   credits
-   contacts
-
 .. _introduction:
 
 Introduction
@@ -43,13 +27,6 @@ Installation
 ------------
 
 The SZ plugin is not an official QGIS plugin.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   installation/requirements
-   installation/download
 
 Minimum requirements
 ~~~~~~~~~~~~~~~~~~~~~
