@@ -51,8 +51,6 @@ The SZ plugin is not an official QGIS plugin.
    installation/requirements
    installation/download
 
-.. _installation/requirements:
-
 Minimum requirements
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -63,8 +61,6 @@ Tested on:
 * Ubuntu 20.04 - QGIS 3.34
 * Windows 10 - QGIS 3.28/QGIS 3.34
 * MacOS Sonoma 14.4 - QGIS 3.28
-
-.. _installation/download:
 
 Download and install
 ~~~~~~~~~~~~~~~~~~~~
