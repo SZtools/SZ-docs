@@ -43,21 +43,21 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
-   :width: 500px
+   :width: 50%
    :align: center
 
 - add plugin repository
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
-   :width: 500px
+   :width: 50%
    :align: center
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_ (THIS REPOSITORY IS TEMPORARY)
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :width: 500px
+   :width: 50%
    :align: center
 
 or
@@ -68,7 +68,7 @@ Lunch QGIS 3.x, and abilitate the plugin from ``manage and install plugin/instal
 
 .. figure:: ../images/install.png
    :alt: Install A
-   :width: 500px
+   :width: 50%
    :align: center
 
 or
@@ -77,14 +77,14 @@ cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downl
 
 .. figure:: ../images/install.png
    :alt: Install B
-   :width: 500px
+   :width: 50%
    :align: center
 
 At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :width: 500px
+   :width: 50%
    :align: center
 
 GUI
@@ -108,7 +108,7 @@ Input data for SI k-fold or SI functions should be a vector layer with a number 
 
 .. figure:: ../images/use.png
    :alt: Input data
-   :width: 500px
+   :width: 50%
    :align: center
 
 Test
@@ -118,12 +118,12 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 
 .. figure:: ../images/test.png
    :alt: Output A
-   :width: 500px
+   :width: 50%
    :align: center
 
 .. figure:: ../images/output.png
    :alt: Output B
-   :width: 500px
+   :width: 50%
    :align: center
 
 Third-part libraries and plugins used
