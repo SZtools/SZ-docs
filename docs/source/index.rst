@@ -41,10 +41,12 @@ Download and install
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 - flag ``show also experimental plugins``
 
-.. image:: /images/experimental.png
-   :alt: Experimental plugins
-   :width: 80%
-   :align: left
+.. figure:: ../images/experimental.png
+   :alt: Show experimental plugins
+   :width: 50%
+   :align: center
+
+   Flag "show also experimental plugins".
 
 
 - add plugin repository
