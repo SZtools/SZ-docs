@@ -43,7 +43,8 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
-   :scale 10%
+   :width: 80%
+   :height: 80%
    :align: left
 
 
@@ -51,7 +52,8 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
-   :width: 70%
+   :width: 110%
+   :height: 110%
    :align: left
 
 
@@ -60,6 +62,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
    :width: 50%
+   :height: 50%
    :align: left
 
 
