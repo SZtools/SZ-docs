@@ -41,8 +41,11 @@ Download and install
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 - flag ``show also experimental plugins``
 
-.. image:: ./images/experimental.png
-   :width: 500px
+.. figure:: /images/addrepo.png
+   :width: 80%
+   :align: left
+   #:alt: GitHub template for the tutorial
+   #:width: 500px
 
 - add plugin repository
 
