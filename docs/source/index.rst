@@ -41,13 +41,15 @@ Download and install
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 - flag ``show also experimental plugins``
 
-.. figure:: docs/images/experimental.png
+.. image:: images/experimental.png
+   :alt: Experimental plugins
    :width: 80%
    :align: left
 
 - add plugin repository
 
-.. image::  docs/images/addrepo.png
+.. image:: images/addrepo.png
+   :alt: Add repository
    :width: 500px
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_ (THIS REPOSITORY IS TEMPORARY)
