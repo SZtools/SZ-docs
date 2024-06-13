@@ -43,24 +43,24 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
-   :width: 50%
-   :align: center
+   :width: 80%
+   :align: left
 
 
 - add plugin repository
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :width: 70%
+   :align: left
 
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_ (THIS REPOSITORY IS TEMPORARY)
 
 .. figure:: ../images/repodetail.png
-   :alt: Add plugin repository
+   :alt: Edit plugin repository
    :width: 50%
-   :align: center
+   :align: left
 
 
 or
@@ -70,25 +70,25 @@ cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downl
 Lunch QGIS 3.x, and abilitate the plugin from ``manage and install plugin/installed/sz_processing``
 
 .. figure:: ../images/install.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Install A
+   :width: 80%
+   :align: left
 
 or
 
 cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downloading it as zip file (and then unzipping it), and zip the folder ``sz_module`` to ``sz_module.zip``. Finally you can install the plugin by using the menu ``install from zip``.
 
 .. figure:: ../images/install.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Install B
+   :width: 80%
+   :align: left
 
 At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Processing toolbox
+   :width: 40%
+   :align: left
 
 GUI
 ---
@@ -110,9 +110,9 @@ Input data of SI and SI k-fold functions
 Input data for SI k-fold or SI functions should be a vector layer with a number of fields for independent variables and a field for the dependent variable classified binomially: 0 for absence, >0 for presence.
 
 .. figure:: ../images/use.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Input data
+   :width: 80%
+   :align: left
 
 Test
 ----
@@ -120,14 +120,14 @@ Test
 A dataset and QGIS project are available in `test <./test_data>`_ folder to test the plugin.
 
 .. figure:: ../images/test.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Output A
+   :width: 80%
+   :align: left
 
 .. figure:: ../images/output.png
-   :alt: Add plugin repository
-   :width: 50%
-   :align: center
+   :alt: Output B
+   :width: 80%
+   :align: left
 
 Third-part libraries and plugins used
 -------------------------------------
