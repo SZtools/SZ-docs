@@ -43,7 +43,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
-   :width: 80%
+   :scale 10%
    :align: left
 
 
