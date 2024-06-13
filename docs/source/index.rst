@@ -43,7 +43,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
-   :scale: 50%
+   :scale: 100%
    :align: left
 
 
@@ -51,7 +51,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
-   :scale: 50%
+   :scale: 100%
    :align: left
 
 
@@ -59,7 +59,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :scale: 50%
+   :scale: 100%
    :align: left
 
 
@@ -80,14 +80,14 @@ cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downl
 
 .. figure:: ../images/install.png
    :alt: Install B
-   :scale: 50%
+   :scale: 70%
    :align: left
 
 At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :scale: 50%
+   :scale: 70%
    :align: left
 
 GUI
@@ -111,7 +111,7 @@ Input data for SI k-fold or SI functions should be a vector layer with a number 
 
 .. figure:: ../images/use.png
    :alt: Input data
-   :scale: 50%
+   :scale: 100%
    :align: left
 
 Test
