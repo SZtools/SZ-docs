@@ -1,11 +1,3 @@
-/* Fix the sidebar position */
-/*.wy-side-nav-search {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure it stays on top */
-/*}
-
 /* Customize the sidebar width and position */
 .wy-nav-side {
     position: fixed;
@@ -25,26 +17,7 @@
     padding: 20px;
 }
 
-/* Style for the sidebar navigation links */
-/*.wy-nav-side a {
-    color: #337ab7; /* Link color */
-    text-decoration: none;
-/*}
-
-/*.wy-nav-side a:hover {
-    color: #23527c; /* Link hover color */
-/*}
-
 /* Style for the sidebar section titles */
 .wy-nav-side .toctree-l1 > a {
     font-weight: bold; /* Bold section titles */
 }
-
-/* Customize the search box */
-/*.wy-side-nav-search .wy-nav-search {
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-/*}
