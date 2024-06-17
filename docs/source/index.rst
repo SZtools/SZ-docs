@@ -79,7 +79,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :width: 70%
+   :width: 60%
    :align: center
 
 or
@@ -106,7 +106,7 @@ At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :width: 60%
+   :width: 50%
    :align: center
 
 GUI
@@ -130,7 +130,7 @@ Input data for SI k-fold or SI functions should be a vector layer with a number 
 
 .. figure:: ../images/use.png
    :alt: Input data
-   :width: 90%
+   :width: 100%
    :align: center
 
 Test
