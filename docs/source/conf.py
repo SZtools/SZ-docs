@@ -33,8 +33,15 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-#html_static_path = ['_static']
-#html_css_files = ['custom.css']
+
+# Add any paths that contain custom static files (such as style sheets) here, relative to this directory.
+html_static_path = ['_static']
+
+# Add custom CSS files
+html_css_files = [
+    'custom.css',
+]
+
 
 # -- Options for the theme
 html_theme_options = {
