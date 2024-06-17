@@ -40,7 +40,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # Add custom CSS files
 #html_css_files = [
-    'custom.css',
+    #'custom.css',
 #]
 
 
