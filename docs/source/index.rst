@@ -79,7 +79,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :width: 50%
+   :width: 80%
    :align: left
 
 or
@@ -106,8 +106,8 @@ At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :width: 40%
-   :align: left
+   :width: 80%
+   :align: center
 
 GUI
 ---
@@ -140,12 +140,12 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 
 .. figure:: ../images/test.png
    :alt: Output A
-   :width: 80%
+   :width: 90%
    :align: center
 
 .. figure:: ../images/output.png
    :alt: Output B
-   :width: 80%
+   :width: 90%
    :align: center
 
 Third-part libraries and plugins used
