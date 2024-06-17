@@ -66,21 +66,21 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 .. figure:: ../images/experimental.png
    :alt: Show experimental plugins
    :width: 90%
-   :align: left
+   :align: center
 
 - add plugin repository
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
    :width: 80%
-   :align: left
+   :align: center
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_ (THIS REPOSITORY IS TEMPORARY)
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :width: 80%
-   :align: left
+   :width: 70%
+   :align: center
 
 or
 
@@ -106,7 +106,7 @@ At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :width: 80%
+   :width: 60%
    :align: center
 
 GUI
@@ -140,12 +140,12 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 
 .. figure:: ../images/test.png
    :alt: Output A
-   :width: 90%
+   :width: 110%
    :align: center
 
 .. figure:: ../images/output.png
    :alt: Output B
-   :width: 90%
+   :width: 110%
    :align: center
 
 Third-part libraries and plugins used
