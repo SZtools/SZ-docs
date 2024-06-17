@@ -68,6 +68,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
    :width: 90%
    :align: center
 
+
 - add plugin repository
 
 .. figure:: ../images/addrepo.png
@@ -75,12 +76,14 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
    :width: 80%
    :align: center
 
+
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_ (THIS REPOSITORY IS TEMPORARY)
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
    :width: 60%
    :align: center
+
 
 or
 
