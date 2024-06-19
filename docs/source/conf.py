@@ -1,7 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-
 project = 'SZ-plugin-guide'
 copyright = '2024, Giacomo Titti'
 author = 'Giacomo Titti'
@@ -10,7 +9,6 @@ release = '0.1'
 version = '0.1.0'
 
 # -- General configuration
-
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -27,38 +25,36 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+# -- Add paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # -- Options for HTML output
-
-html_title = 'Susceptibility Zoning plugin Guide'
-
+#html_title = 'Susceptibility Zoning plugin Guide'
 html_theme = 'sphinx_rtd_theme'
 
-# Add any paths that contain custom static files (such as style sheets) here, relative to this directory.
-#html_static_path = ['_static']
+# -- Add any paths that contain custom static files (such as style sheets) here, relative to this directory.
+html_static_path = ['_static']
 
-# Add custom CSS files
-#html_css_files = [
-    #'custom.css',
-#]
+# -- Add custom CSS files
+html_css_files = [
+    'custom.css',
+]
 
-
-# -- Options for the theme
+# -- Options for the theme.
 html_theme_options = {
     'navigation_depth': 3,  # Adjust depth as needed
     'collapse_navigation': False,  # Keep sidebar open by default
     'sticky_navigation': True,  # Make sidebar navigation sticky
 }
 
-# -- Customize sidebar templates, if needed
+# Customize sidebar templates
 html_sidebars = {
-   '**': [
-       'globaltoc.html',  # Global table of contents
-       'relations.html',  # Next/previous links
-       'sourcelink.html',  # View source link
-       'searchbox.html',  # Search box
-   ]
+    '**': [
+        'custom_sidebar.html',  # Use the custom sidebar template
+        'relations.html',       # Next/previous links
+        'sourcelink.html',      # View source link
+        'searchbox.html',       # Search box
+    ]
 }
 
 # html_use_index = True
