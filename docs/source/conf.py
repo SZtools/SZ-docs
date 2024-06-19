@@ -1,7 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-project = 'SZ-plugin-guide'
+project = 'SZ plugin guide'
 copyright = '2024, Giacomo Titti'
 author = 'Giacomo Titti'
 
@@ -13,7 +13,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
-    #'sphinx.ext.autosummary',
+    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
     'sphinx_rtd_theme',
