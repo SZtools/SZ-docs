@@ -1,1 +1,23 @@
-
+<!-- _templates/custom_sidebar.html -->
+<div class="sphinxsidebar">
+    <h3>Custom Sidebar</h3>
+    <ul>
+        <li><a href="{{ pathto('introduction') }}">Introduction</a></li>
+        <li>
+            <a href="{{ pathto('installation/index') }}">Installation</a>
+            <ul>
+                <li><a href="{{ pathto('installation/requirements') }}">Minimum Requirements</a></li>
+                <li><a href="{{ pathto('installation/download') }}">Download and Install</a></li>
+            </ul>
+        </li>
+        <li><a href="{{ pathto('gui') }}">GUI</a></li>
+        <li><a href="{{ pathto('test') }}">Test</a></li>
+        <li><a href="{{ pathto('libraries') }}">Third-party Libraries</a></li>
+        <li><a href="{{ pathto('tutorial') }}">Tutorial</a></li>
+        <li><a href="{{ pathto('application') }}">Application</a></li>
+        <li><a href="{{ pathto('publications') }}">Publications</a></li>
+        <li><a href="{{ pathto('presentations') }}">Presentations</a></li>
+        <li><a href="{{ pathto('credits') }}">Credits</a></li>
+        <li><a href="{{ pathto('contacts') }}">Contacts</a></li>
+    </ul>
+</div>
