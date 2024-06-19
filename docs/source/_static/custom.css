@@ -1,23 +1,28 @@
-/* Customize the sidebar width and position */
-.wy-nav-side {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 300px; /* Adjust width as needed */
-    height: 100%;
-    background-color: #f8f8f8; /* Background color */
+.sphinxsidebar {
+    background-color: #f8f8f8; /* Sidebar background color */
     border-right: 1px solid #ddd; /* Border on the right */
-    overflow-y: auto; /* Scrollbar for overflow */
-    padding-top: 60px; /* Space for header */
+    padding: 15px; /* Padding inside the sidebar */
 }
 
-/* Adjust the content area to account for the fixed sidebar */
-.wy-nav-content {
-    margin-left: 300px; /* Same width as the sidebar */
-    padding: 20px;
+.sphinxsidebar h3 {
+    font-size: 1.2em; /* Sidebar header font size */
+    margin-bottom: 10px; /* Space below the header */
 }
 
-/* Style for the sidebar section titles */
-.wy-nav-side .toctree-l1 > a {
-    font-weight: bold; /* Bold section titles */
+.sphinxsidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
+}
+
+.sphinxsidebar li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+.sphinxsidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #337ab7; /* Link color */
+}
+
+.sphinxsidebar a:hover {
+    color: #23527c; /* Link hover color */
 }
