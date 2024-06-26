@@ -25,7 +25,7 @@ Installation
 The SZ plugin is not an official QGIS plugin.
 
 Minimum requirements
-~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 Minimum tested version of QGIS is 3.28
 
@@ -36,7 +36,7 @@ Tested on:
 * MacOS Sonoma 14.4 - QGIS 3.28
 
 Download and install
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 - flag ``show also experimental plugins``
