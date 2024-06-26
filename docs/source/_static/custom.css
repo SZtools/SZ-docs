@@ -1,0 +1,28 @@
+.sphinxsidebar {
+    background-color: #f8f8f8; /* Sidebar background color */
+    border-right: 1px solid #ddd; /* Border on the right */
+    padding: 15px; /* Padding inside the sidebar */
+}
+
+.sphinxsidebar h3 {
+    font-size: 1.2em; /* Sidebar header font size */
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.sphinxsidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
+}
+
+.sphinxsidebar li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+.sphinxsidebar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #337ab7; /* Link color */
+}
+
+.sphinxsidebar a:hover {
+    color: #23527c; /* Link hover color */
+}
