@@ -20,7 +20,7 @@ The plugin uses several type of statistical model for susceptibility evaluation,
 The plugin allows to cross-validate the results by simple random selection of test/train samples or allows to cross-validate by k-fold cross-validation method.
 
 Installation
-------------
+--------------
 
 The SZ plugin is not an official QGIS plugin.
 
