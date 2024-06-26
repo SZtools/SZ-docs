@@ -43,18 +43,8 @@ html_css_files = [
 # -- Options for the theme.
 html_theme_options = {
     'navigation_depth': 3,  # Adjust depth as needed
-    'collapse_navigation': False,  # Keep sidebar open by default
+    'collapse_navigation': True,  # Keep sidebar open by default
     'sticky_navigation': True,  # Make sidebar navigation sticky
-}
-
-# Customize sidebar templates
-html_sidebars = {
-    '**': [
-        'custom_sidebar.html',  # Use the custom sidebar template
-        'relations.html',       # Next/previous links
-        'sourcelink.html',      # View source link
-        'searchbox.html',       # Search box
-    ]
 }
 
 # html_use_index = True
