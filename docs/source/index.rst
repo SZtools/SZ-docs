@@ -19,13 +19,8 @@ The plugin uses several type of statistical model for susceptibility evaluation,
 
 The plugin allows to cross-validate the results by simple random selection of test/train samples or allows to cross-validate by k-fold cross-validation method.
 
-Installation
---------------
-
-The SZ plugin is not an official QGIS plugin.
-
 Minimum requirements
-^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 Minimum tested version of QGIS is 3.28
 
@@ -36,7 +31,9 @@ Tested on:
 * MacOS Sonoma 14.4 - QGIS 3.28
 
 Download and install
-^^^^^^^^^^^^^^^^^^^^
+---------------------
+
+The SZ plugin is not an official QGIS plugin.
 
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 - flag ``show also experimental plugins``
