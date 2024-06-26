@@ -26,7 +26,7 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 # -- Add paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+#templates_path = ['_templates']
 
 # -- Options for HTML output
 #html_title = 'Susceptibility Zoning plugin Guide'
