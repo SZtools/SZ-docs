@@ -6,7 +6,7 @@ copyright = '2024, Giacomo Titti'
 author = 'Giacomo Titti'
 
 release = '0.1'
-version = '0.1.0'
+version = '1.x <https://github.com/SZtools/SZ-plugin/releases/tag/1.1.5>'
 
 # -- General configuration
 extensions = [
