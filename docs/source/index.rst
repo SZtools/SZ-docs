@@ -6,7 +6,7 @@ Susceptibility Zoning plugin (SZ)
 
 .. seealso::
 
-   You can find the plugin codes at this **`link <https://github.com/SZtools/SZ-plugin>`_**
+   You can find the plugin codes at this `link <https://github.com/SZtools/SZ-plugin>`_
 
 
 Introduction
