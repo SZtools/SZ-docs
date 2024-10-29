@@ -7,8 +7,8 @@ project = 'SZ plugin guide'
 copyright = '2024, Giacomo Titti'
 author = 'Giacomo Titti'
 
-release = 'dev'
-version = 'dev'
+#release = 'dev'
+#version = 'dev'
 
 # -- General configuration
 extensions = [
