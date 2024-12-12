@@ -55,7 +55,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/addrepo.png
    :alt: Add plugin repository
-   :width: 80%
+   :width: 500
    :align: center
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_
