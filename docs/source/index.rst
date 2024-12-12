@@ -62,7 +62,7 @@ It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manag
 
 .. figure:: ../images/repodetail.png
    :alt: Edit plugin repository
-   :width: 60%
+   :width: 500
    :align: center
 
 or
@@ -73,7 +73,7 @@ Lunch QGIS 3.x, and abilitate the plugin from ``manage and install plugin/instal
 
 .. figure:: ../images/install.png
    :alt: Install A
-   :width: 90%
+   :width: 500
    :align: center
 
 or
@@ -82,14 +82,14 @@ cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downl
 
 .. figure:: ../images/install.png
    :alt: Install B
-   :width: 90%
+   :width: 500
    :align: center
   
 At the end you should have the SZ plugin in your processing toolbox
 
 .. figure:: ../images/gui.png
    :alt: Processing toolbox
-   :width: 50%
+   :width: 300
    :align: center
   
 GUI
@@ -111,7 +111,7 @@ All the functions run vector analysis
 
 .. figure:: ../images/use.png
    :alt: Input data
-   :width: 100%
+   :width: 500
    :align: center
 
 Usage
@@ -122,7 +122,7 @@ Modelling - Machine Learning tools
 
 .. figure:: ../images/ML.png
    :alt: Input data
-   :width: 100%
+   :width: 500
    :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
@@ -140,7 +140,7 @@ Modelling - Statistical Tools
 
 .. figure:: ../images/statistical.png
    :alt: Input data
-   :width: 100%
+   :width: 500
    :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
@@ -159,7 +159,7 @@ Modelling - Neural Network Tools
 
 .. figure:: ../images/NN.png
    :alt: Input data
-   :width: 100%
+   :width: 500
    :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
@@ -181,12 +181,12 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 
 .. figure:: ../images/test.png
    :alt: Output A
-   :width: 110%
+   :width: 500
    :align: center
 
 .. figure:: ../images/output.png
    :alt: Output B
-   :width: 110%
+   :width: 500
    :align: center
 
 
