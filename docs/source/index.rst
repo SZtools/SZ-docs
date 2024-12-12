@@ -120,7 +120,10 @@ Usage
 Modelling - Machine Learning tools
 ..................................
 
-<img src="./images/ML.png" width="500">
+.. figure:: ../images/ML.png
+   :alt: Input data
+   :width: 100%
+   :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
 * 2 select the independent variabled from the fields of the input layer. Possible format: linear, ordinal (spline fitted), tensors, cathegorical (integer and continuous from 1 to n)
@@ -135,7 +138,10 @@ Modelling - Machine Learning tools
 Modelling - Statistical Tools
 .............................
 
-<img src="./images/statistical.png" width="500">
+.. figure:: ../images/statistical.png
+   :alt: Input data
+   :width: 100%
+   :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
 * 2 select the independent variabled from the fields of the input layer. Possible format: linear, ordinal (spline fitted), tensors, cathegorical (integer and continuous from 1 to n)
@@ -151,7 +157,10 @@ Modelling - Statistical Tools
 Modelling - Neural Network Tools
 ................................
 
-<img src="./images/NN.png" width="500">
+.. figure:: ../images/NN.png
+   :alt: Input data
+   :width: 100%
+   :align: center
 
 * 1 select the vecor layer to be used as parent layer in the variable selection
 * 2 select the independent variabled from the fields of the input layer. Possible format: linear, ordinal (spline fitted), tensors, cathegorical (integer and continuous from 1 to n)
