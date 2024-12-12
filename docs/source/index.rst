@@ -9,7 +9,7 @@ Susceptibility Zoning plugin (SZ)
 Introduction
 ------------
 
-This repository contains the code for a `QGIS plugin <https://www.qgis.org>`_, called "Susceptibility Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
+This repository contains the code for a `QGIS <https://www.qgis.org>`_ plugin, called "Susceptibility Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
 
 The plugin has been developed with a main focus and application towards landslides susceptibility, but it can be applied to different types of natural events or inter-disciplinary applications.
 
@@ -49,56 +49,70 @@ Tested on:
 Download and install
 ~~~~~~~~~~~~~~~~~~~~
 
-It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ```manage and install plugins```:
+It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 
 - add plugin repository
 
-<img src="./images/addrepo.png" width="500">
+.. figure:: ../images/addrepo.png
+   :alt: Add plugin repository
+   :width: 80%
+   :align: center
 
 - edit repository and add `https://sztools.github.io/SZ/sz.xml <https://sztools.github.io/SZ/sz.xml>`_
 
-<img src="./images/repodetail.png" width="500">
-<p>
+.. figure:: ../images/repodetail.png
+   :alt: Edit plugin repository
+   :width: 60%
+   :align: center
 
 or
 
-cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downloading it as zip file (and than unzipping it) and copying the ```sz_module``` folder in your local ```python/plugin``` folder (read `here <https://docs.qgis.org/3.10/en/docs/user_manual/plugins/plugins.html#core-and-external-plugins>`_ for more information).
+cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downloading it as zip file (and than unzipping it) and copying the ``sz_module`` folder in your local ``python/plugin`` folder (read `here <https://docs.qgis.org/3.10/en/docs/user_manual/plugins/plugins.html#core-and-external-plugins>`_ for more information).
 
-Lunch QGIS 3.x, and abilitate the plugin from ```manage and install plugin/installed/sz_processing```
+Lunch QGIS 3.x, and abilitate the plugin from ``manage and install plugin/installed/sz_processing``
 
-<img src="./images/install.png" width="500">
-<p>
+.. figure:: ../images/install.png
+   :alt: Install A
+   :width: 90%
+   :align: center
 
 or
 
-cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downloading it as zip file (and than unzipping it), and zip the folder ```sz_module``` to ```sz_module.zip```. Finally you can install the plugin by using the menu ```install from zip```.
+cloning the `GitHub repository <https://github.com/SZtools/SZ-plugin>`_ or downloading it as zip file (and than unzipping it), and zip the folder ``sz_module`` to ``sz_module.zip``. Finally you can install the plugin by using the menu ``install from zip``.
 
-<img src="./images/install.png" width="500">
-<p>
+.. figure:: ../images/install.png
+   :alt: Install B
+   :width: 90%
+   :align: center
   
 At the end you should have the SZ plugin in your processing toolbox
 
-<img src="./images/gui.png" width="300">
-<p>
+.. figure:: ../images/gui.png
+   :alt: Processing toolbox
+   :width: 50%
+   :align: center
   
 GUI
 ~~~~~~~~~~~~~~~~~~~~
 
 The functions are grouped into 4 cathegories:
 
-* _Data preparation_
-* _Modelling_
-* _SI transfer_
-* _Classify SI_
+* *Data preparation*
+* *Modelling*
+* *SI transfer*
+* *Classify SI*
 
-* _Data preparation_ functions can be used for data pre-processing
-* _Modelling_ functions run the statistic models (_Statistical tools_) and machine learning models (_Machine Learning tools_ / _Neural Network tools_) for susceptibility, cross-validate and evaluate the results by several metrics: ROC (AUC), F1 score, Choen's kappa index, Root Meet Square Error, Mean Absolute Error, Squared R, Pearson Correlation
-* _SI transfer_ functions run the statistic models (_Statistical tools_) and machine learning models (_Machine Learning tools_ / _Neural Network tools_) for susceptibility, and apply transfer learning in time and space.
-* _Classify SI_ functions allows the user to cathegorize the susceptibility index, to run ROC analysis and to perform Confusion Matrix.
+* *Data preparation* functions can be used for data pre-processing
+* *Modelling* functions run the statistic models (*Statistical tools*) and machine learning models (*Machine Learning tools/Neural Network tools*) for susceptibility, cross-validate and evaluate the results by several metrics: ROC (AUC), F1 score, Choen's kappa index, Root Meet Square Error, Mean Absolute Error, Squared R, Pearson Correlation
+* *SI transfer* functions run the statistic models (*Statistical tools*) and machine learning models (*Machine Learning tools/Neural Network tools*) for susceptibility, and apply transfer learning in time and space.
+* *Classify SI* functions allows the user to cathegorize the susceptibility index, to run ROC analysis and to perform Confusion Matrix.
 
 All the functions run vector analysis
 
-<img src="./images/use.png" width="500">
+.. figure:: ../images/use.png
+   :alt: Input data
+   :width: 100%
+   :align: center
 
 Usage
 ~~~~~
@@ -132,7 +146,7 @@ Modelling - Statistical Tools
 * 7 in case of TSS or LOO or space-time CV selection the Time field is necessary 
 * 8 K value selection in case of random, spatial and space-time CV. If k is equal to 1 then a fitting analysis will be conducted
 * 9 set the vector file destination
-* 10 set the folder destination for the weights, partial effects, plots and metrics outputs* 
+* 10 set the folder destination for the weights, partial effects, plots and metrics outputs
 
 Modelling - Neural Network Tools
 ................................
@@ -148,17 +162,23 @@ Modelling - Neural Network Tools
 * 7 in case of TSS or LOO or space-time CV selection the Time field is necessary 
 * 8 K value selection in case of random, spatial and space-time CV. If k is equal to 1 then a fitting analysis will be conducted
 * 9 set the vector file destination
-* 10 set the folder destination for the weights, partial effects, plots and metrics outputs 
+* 10 set the folder destination for the weights, partial effects, plots and metrics outputs
 
  
 Test
 ~~~~~~~~~~~~~~~~~~~~
 
-A dataset and QGIS project are available in [test](./test_data) folder to test the plugin.
+A dataset and QGIS project are available in `test <./test_data>`_ folder to test the plugin.
 
-<img src="./images/test.png" width="500"> 
+.. figure:: ../images/test.png
+   :alt: Output A
+   :width: 110%
+   :align: center
 
-<img src="./images/output.png" width="500">
+.. figure:: ../images/output.png
+   :alt: Output B
+   :width: 110%
+   :align: center
 
 
 Third-part libraries and plugins used
@@ -187,20 +207,20 @@ Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping
 Publications
 ------------
 
-_A few examples and references about applications_
+*A few examples and references about applications*
   
 Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping Susceptibility With Open-Source Tools: A New Plugin for QGIS. Front. Earth Sci. 10:842425. doi: 10.3389/feart.2022.842425
 
 Titti, G., van Westen, C., Borgatti, L., Pasuto, A., & Lombardo, L. (2021). When Enough Is Really Enough? On the Minimum Number of Landslides to Build Reliable Susceptibility Models. Geosciences, 11(11), 469.
 
-Titti, G., Borgatti, L., Zou, Q., Cui, P., & Pasuto, A. (2021). Landslide susceptibility in the Belt and Road Countries: continental step of a multi-scale approach. Environmental Earth Sciences, 80(18), 1-18.`10.1007/s12665-021-09910-1 <https://doi.org/10.1007/s12665-021-09910-1>`_
+Titti, G., Borgatti, L., Zou, Q., Cui, P., & Pasuto, A. (2021). Landslide susceptibility in the Belt and Road Countries: continental step of a multi-scale approach. Environmental Earth Sciences, 80(18), 1-18. `10.1007/s12665-021-09910-1 <https://doi.org/10.1007/s12665-021-09910-1>`_
 
 Titti, G., Borgatti, L., Zou, Q., Pasuto, A., 2019. Small-Scale landslide Susceptibility Assessment. The Case Study of the Southern Asia. Proceedings 30, 14. `10.3390/proceedings2019030014 <https://doi.org/10.3390/proceedings2019030014>`_
 
 Presentations
 ------------
 
-_A list of presentations made about the plugin and its applications_
+*A list of presentations made about the plugin and its applications*
 
 Titti, Giacomo, Sarretta, Alessandro, Crema, Stefano, Pasuto, Alessandro, & Borgatti, Lisa. (2020, March). Sviluppo e applicazione del plugin Susceptibility zoning per il supporto alla pianificazione territoriale. Zenodo. `10.5281/zenodo.3723353 <https://zenodo.org/record/3723353>`_
 
