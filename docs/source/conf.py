@@ -3,7 +3,7 @@
 import sphinx_rtd_theme
 
 # -- Project information
-project = 'SZ plugin guide'
+project = 'SZ plugin 2.0 guide'
 copyright = '2024, Giacomo Titti'
 author = 'Giacomo Titti'
 

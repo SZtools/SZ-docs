@@ -26,3 +26,7 @@
 .sphinxsidebar a:hover {
     color: #23527c; /* Link hover color */
 }
+
+.align-right {
+    text-align: right;
+}
