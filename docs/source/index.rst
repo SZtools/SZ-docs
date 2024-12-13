@@ -1,3 +1,7 @@
+.. container:: align-right
+
+   **2.0**
+
 Susceptibility Zoning plugin (SZ)
 =================================
 
