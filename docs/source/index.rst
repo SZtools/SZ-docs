@@ -5,9 +5,22 @@ Susceptibility Zoning plugin (SZ)
 
    You can find the plugin repository `here <https://github.com/SZtools/SZ-plugin>`_
 
+.. toctree::
+   :maxdepth: 4
+
+   Introduction <#introduction>
+   Installation <#installation>
+   Third-part libraries and plugins used <#third-part-libraries-and-plugins-used>
+   Tutorial <#tutorial>
+   Application <#application>
+   Publications <#publications>
+   Presentations <#presentations>
+   Credits <#credits>
+   Contacts <#contacts>
+
 
 Introduction
-------------
+============
 
 This repository contains the code for a `QGIS <https://www.qgis.org>`_ plugin, called "Susceptibility Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
 
@@ -32,12 +45,12 @@ The plugin allows the user to perform spatial and temporal analysis implementing
 Moreover the plugin allows the user to run space-time transferability with all the models implemented.
 
 Installation
-------------
+============
 
 The SZ plugin is not an official QGIS plugin.
 
 Minimum requirements
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Tested on:
 
@@ -47,7 +60,7 @@ Tested on:
 * MacOS Sonoma 14.4 - QGIS 3.28
 
 Download and install
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 
@@ -93,7 +106,7 @@ At the end you should have the SZ plugin in your processing toolbox
    :align: center
   
 GUI
-~~~~~~~~~~~~~~~~~~~~
+-------------
 
 The functions are grouped into 4 cathegories:
 
@@ -115,10 +128,10 @@ All the functions run vector analysis
    :align: center
 
 Usage
-~~~~~
+----------
 
 Modelling - Machine Learning tools
-..................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/ML.png
    :alt: Input data
@@ -136,7 +149,7 @@ Modelling - Machine Learning tools
 * 9 set the folder destination for the weights, partial effects, plots and metrics outputs 
 
 Modelling - Statistical Tools
-.............................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/statistical.png
    :alt: Input data
@@ -155,7 +168,7 @@ Modelling - Statistical Tools
 * 10 set the folder destination for the weights, partial effects, plots and metrics outputs
 
 Modelling - Neural Network Tools
-................................
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/NN.png
    :alt: Input data
@@ -175,7 +188,7 @@ Modelling - Neural Network Tools
 
  
 Test
-~~~~~~~~~~~~~~~~~~~~
+----------
 
 A dataset and QGIS project are available in `test <./test_data>`_ folder to test the plugin.
 
@@ -191,7 +204,7 @@ A dataset and QGIS project are available in `test <./test_data>`_ folder to test
 
 
 Third-part libraries and plugins used
-------------
+=====================================
 
 * `scikit-learn <https://scikit-learn.org/stable/index.html>`_
 * pygam
@@ -202,19 +215,19 @@ Third-part libraries and plugins used
 
 
 Tutorial
-------------
+==============
 
 video tutorial SZ v1.x: `https://www.youtube.com/watch?v=XpsiCkVF11s <https://www.youtube.com/watch?v=XpsiCkVF11s>`_
   
 Application
-------------
+=============
 
 Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping Susceptibility With Open-Source Tools: A New Plugin for QGIS. Front. Earth Sci. 10:842425. doi: 10.3389/feart.2022.842425
   
 `Referenced dataset <https://zenodo.org/record/6575572>`_
 
 Publications
-------------
+==============
 
 *A few examples and references about applications*
   
@@ -227,14 +240,14 @@ Titti, G., Borgatti, L., Zou, Q., Cui, P., & Pasuto, A. (2021). Landslide suscep
 Titti, G., Borgatti, L., Zou, Q., Pasuto, A., 2019. Small-Scale landslide Susceptibility Assessment. The Case Study of the Southern Asia. Proceedings 30, 14. `10.3390/proceedings2019030014 <https://doi.org/10.3390/proceedings2019030014>`_
 
 Presentations
-------------
+==============
 
 *A list of presentations made about the plugin and its applications*
 
 Titti, Giacomo, Sarretta, Alessandro, Crema, Stefano, Pasuto, Alessandro, & Borgatti, Lisa. (2020, March). Sviluppo e applicazione del plugin Susceptibility zoning per il supporto alla pianificazione territoriale. Zenodo. `10.5281/zenodo.3723353 <https://zenodo.org/record/3723353>`_
 
 Credits
-------------
+=============
 
 v1.x: Giacomo Titti, Alessandro Sarretta and Luigi Lombardo, Padova, November 2021
 
@@ -244,5 +257,7 @@ v2.x: Giacomo Titti, Luigi Lombardo, Liwei Hu, Pietro Festi, Letizia Elia, Bolog
 
 please cite: xxx
   
-## Contacts
+Contacts
+==========
+
 If you have any problem, please write to giacomotitti@gmail.com or create new issue `here <https://github.com/SZtools/SZ-plugin/issues>`_
