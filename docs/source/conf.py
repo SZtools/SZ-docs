@@ -43,7 +43,7 @@ html_css_files = ['custom.css']
 
 # -- Options for the theme.
 html_theme_options = {
-    'navigation_depth': 3,  # Adjust depth as needed
+    'navigation_depth': 4,  # Adjust depth as needed
     'collapse_navigation': True,  # Keep sidebar open by default
     'sticky_navigation': True,  # Make sidebar navigation sticky
 }
