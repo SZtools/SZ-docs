@@ -130,8 +130,15 @@ All the functions run vector analysis
 Usage
 ----------
 
+.. toctree::
+   :maxdepth: 2
+
+   Modelling - Machine Learning tools <#modelling-machine-learning-tools>
+   Modelling - Statistical Tools <#modelling-statistical-tools>
+   Modelling - Neural Network Tools <#modelling-neural-network-tools>
+
 Modelling - Machine Learning tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/ML.png
    :alt: Input data
@@ -149,7 +156,7 @@ Modelling - Machine Learning tools
 * 9 set the folder destination for the weights, partial effects, plots and metrics outputs 
 
 Modelling - Statistical Tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/statistical.png
    :alt: Input data
@@ -168,7 +175,7 @@ Modelling - Statistical Tools
 * 10 set the folder destination for the weights, partial effects, plots and metrics outputs
 
 Modelling - Neural Network Tools
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../images/NN.png
    :alt: Input data
