@@ -47,8 +47,6 @@ Moreover the plugin allows the user to run space-time transferability with all t
 Installation
 ============
 
-The SZ plugin is not an official QGIS plugin.
-
 Minimum requirements
 --------------------
 
@@ -61,6 +59,15 @@ Tested on:
 
 Download and install
 --------------------
+The plugin can be downloaded and installed directly from the official QGIS repository.
+
+.. figure:: ../images/gui_official_qgis.PNG
+   :alt: Add plugin repository
+   :width: 500
+   :align: center
+
+Alternative installation
+------------------------
 
 It can be installed on QGIS >= 3.28 adding the Plugin Repository to QGIS ``manage and install plugins``:
 
