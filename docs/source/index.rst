@@ -1,4 +1,4 @@
-Susceptibility Zoning plugin (SZ)
+Spatiotemporal data-driven Zoning plugin (SZ)
 =================================
 
 .. seealso::
@@ -22,7 +22,7 @@ Susceptibility Zoning plugin (SZ)
 Introduction
 ============
 
-This repository contains the code for a `QGIS <https://www.qgis.org>`_ plugin, called "Susceptibility Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
+This repository contains the code for a `QGIS <https://www.qgis.org>`_ plugin, called "Spatiotemporal data-driven Zoning plugin" (SZ-plugin), aiming at creating maps of susceptibility to various natural forcing elements.
 
 The plugin has been developed with a main focus and application towards landslides susceptibility, but it can be applied to different types of natural events or inter-disciplinary applications.
 
