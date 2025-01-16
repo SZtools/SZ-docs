@@ -269,7 +269,7 @@ please cite: Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (
 
 v2.x: Giacomo Titti, Luigi Lombardo, Liwei Hu, Pietro Festi, Letizia Elia, Bologna, December 2024
 
-please cite: Titti G, Hu L, Festi P, Elia L, Borgatti L, Lombardo L (2025): An updated version of the SZ-plugin:  from space tospace-time data-driven modeling in QGIS. https://eartharxiv.org/repository/view/8374/
+please cite: Titti, G., Hu, L., Festi, P., Elia, L., Borgatti, L. & Lombardo, L. (2025). An updated version of the SZ-plugin: from space to space-time data-driven modeling in QGIS. EarthArxiv, Preprint. https://doi.org/10.31223/X5JD9X
   
 Contacts
 ==========
