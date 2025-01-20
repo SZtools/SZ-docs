@@ -265,11 +265,11 @@ Credits
 
 v1.x: Giacomo Titti, Alessandro Sarretta and Luigi Lombardo, Padova, November 2021
 
-please cite: Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping Susceptibility With Open-Source Tools: A New Plugin for QGIS. Front. Earth Sci. 10:842425. doi: 10.3389/feart.2022.842425
+please cite: Titti G, Sarretta A, Lombardo L, Crema S, Pasuto A and Borgatti L (2022) Mapping Susceptibility With Open-Source Tools: A New Plugin for QGIS. Front. Earth Sci. 10:842425. `doi: 10.3389/feart.2022.842425 <http://dx.doi.org/10.3389/feart.2022.842425>`_
 
 v2.x: Giacomo Titti, Luigi Lombardo, Liwei Hu, Pietro Festi, Letizia Elia, Bologna, December 2024
 
-please cite: Titti, G., Hu, L., Festi, P., Elia, L., Borgatti, L. & Lombardo, L. (2025). An updated version of the SZ-plugin: from space to space-time data-driven modeling in QGIS. EarthArxiv, Preprint. https://doi.org/10.31223/X5JD9X
+please cite: Titti, G., Hu, L., Festi, P., Elia, L., Borgatti, L. & Lombardo, L. (2025). An updated version of the SZ-plugin: from space to space-time data-driven modeling in QGIS. EarthArxiv, Preprint. `doi: 10.31223/X5JD9X <https://doi.org/10.31223/X5JD9X>`_
   
 Contacts
 ==========
